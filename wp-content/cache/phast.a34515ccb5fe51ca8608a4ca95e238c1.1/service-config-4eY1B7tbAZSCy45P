@@ -1,0 +1,29 @@
+<?php exit; ?>
+b1f901b659067df271616e3e159453e8263da7d5
+{
+    "plugin_version": "PhastPress-2.18-8",
+    "servicesUrl": "https://localhost/test/wp-content/plugins/phastpress/phast.php",
+    "securityToken": "RDVPsDKM7hnTgyJoongxcauCRzynl7KkkpDbtg==",
+    "images": {
+        "filters": {
+            "Kibo\\Phast\\Filters\\Image\\ImageAPIClient\\Filter": {
+                "enabled": true,
+                "plugin-version": "PhastPress-2.18-8"
+            }
+        }
+    },
+    "styles": {
+        "filters": {
+            "Kibo\\Phast\\Filters\\CSS\\ImageURLRewriter\\Filter": {
+                "enabled": false
+            }
+        }
+    },
+    "serviceRequestFormat": 2,
+    "compressServiceResponse": true,
+    "cdnHost": "localhost",
+    "alternativeServicesUrls": {
+        "http://localhost:80": "http://localhost/test/wp-content/plugins/phastpress/phast.php",
+        "https://localhost:443": "https://localhost/test/wp-content/plugins/phastpress/phast.php"
+    }
+}
